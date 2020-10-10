@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB452D9325296D9700E851F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB452D9225296D9700E851F2 /* AppDelegate.swift */; };
-		BB452D9525296D9700E851F2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BB452D9425296D9700E851F2 /* art.scnassets */; };
-		BB452D9725296D9700E851F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB452D9625296D9700E851F2 /* ViewController.swift */; };
-		BB452D9A25296D9700E851F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB452D9825296D9700E851F2 /* Main.storyboard */; };
-		BB452D9C25296D9800E851F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB452D9B25296D9800E851F2 /* Assets.xcassets */; };
-		BB452D9F25296D9800E851F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB452D9D25296D9800E851F2 /* LaunchScreen.storyboard */; };
-		BB5E5FA62530A09F00FD8D4A /* YesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E5FA52530A09F00FD8D4A /* YesViewController.swift */; };
+		BBF02A1A252FFCD300A181C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF02A19252FFCD300A181C9 /* AppDelegate.swift */; };
+		BBF02A1C252FFCD300A181C9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF02A1B252FFCD300A181C9 /* art.scnassets */; };
+		BBF02A1E252FFCD300A181C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF02A1D252FFCD300A181C9 /* ViewController.swift */; };
+		BBF02A21252FFCD300A181C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF02A1F252FFCD300A181C9 /* Main.storyboard */; };
+		BBF02A23252FFCD400A181C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF02A22252FFCD400A181C9 /* Assets.xcassets */; };
+		BBF02A26252FFCD400A181C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF02A24252FFCD400A181C9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB452D8F25296D9700E851F2 /* ARKitz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB452D9225296D9700E851F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB452D9425296D9700E851F2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		BB452D9625296D9700E851F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB452D9925296D9700E851F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB452D9B25296D9800E851F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB452D9E25296D9800E851F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BB452DA025296D9800E851F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB5E5FA52530A09F00FD8D4A /* YesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesViewController.swift; sourceTree = "<group>"; };
+		BBF02A16252FFCD300A181C9 /* ARButt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARButt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF02A19252FFCD300A181C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBF02A1B252FFCD300A181C9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BBF02A1D252FFCD300A181C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBF02A20252FFCD300A181C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBF02A22252FFCD400A181C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF02A25252FFCD400A181C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBF02A27252FFCD400A181C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB452D8C25296D9700E851F2 /* Frameworks */ = {
+		BBF02A13252FFCD300A181C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB452D8625296D9700E851F2 = {
+		BBF02A0D252FFCD300A181C9 = {
 			isa = PBXGroup;
 			children = (
-				BB452D9125296D9700E851F2 /* ARKitz1 */,
-				BB452D9025296D9700E851F2 /* Products */,
+				BBF02A18252FFCD300A181C9 /* ARButt */,
+				BBF02A17252FFCD300A181C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BB452D9025296D9700E851F2 /* Products */ = {
+		BBF02A17252FFCD300A181C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB452D8F25296D9700E851F2 /* ARKitz1.app */,
+				BBF02A16252FFCD300A181C9 /* ARButt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB452D9125296D9700E851F2 /* ARKitz1 */ = {
+		BBF02A18252FFCD300A181C9 /* ARButt */ = {
 			isa = PBXGroup;
 			children = (
-				BB452D9225296D9700E851F2 /* AppDelegate.swift */,
-				BB452D9425296D9700E851F2 /* art.scnassets */,
-				BB452D9625296D9700E851F2 /* ViewController.swift */,
-				BB452D9825296D9700E851F2 /* Main.storyboard */,
-				BB452D9B25296D9800E851F2 /* Assets.xcassets */,
-				BB452D9D25296D9800E851F2 /* LaunchScreen.storyboard */,
-				BB452DA025296D9800E851F2 /* Info.plist */,
-				BB5E5FA52530A09F00FD8D4A /* YesViewController.swift */,
+				BBF02A19252FFCD300A181C9 /* AppDelegate.swift */,
+				BBF02A1B252FFCD300A181C9 /* art.scnassets */,
+				BBF02A1D252FFCD300A181C9 /* ViewController.swift */,
+				BBF02A1F252FFCD300A181C9 /* Main.storyboard */,
+				BBF02A22252FFCD400A181C9 /* Assets.xcassets */,
+				BBF02A24252FFCD400A181C9 /* LaunchScreen.storyboard */,
+				BBF02A27252FFCD400A181C9 /* Info.plist */,
 			);
-			path = ARKitz1;
+			path = ARButt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB452D8E25296D9700E851F2 /* ARKitz1 */ = {
+		BBF02A15252FFCD300A181C9 /* ARButt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB452DA325296D9800E851F2 /* Build configuration list for PBXNativeTarget "ARKitz1" */;
+			buildConfigurationList = BBF02A2A252FFCD400A181C9 /* Build configuration list for PBXNativeTarget "ARButt" */;
 			buildPhases = (
-				BB452D8B25296D9700E851F2 /* Sources */,
-				BB452D8C25296D9700E851F2 /* Frameworks */,
-				BB452D8D25296D9700E851F2 /* Resources */,
+				BBF02A12252FFCD300A181C9 /* Sources */,
+				BBF02A13252FFCD300A181C9 /* Frameworks */,
+				BBF02A14252FFCD300A181C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ARKitz1;
-			productName = ARKitz1;
-			productReference = BB452D8F25296D9700E851F2 /* ARKitz1.app */;
+			name = ARButt;
+			productName = ARButt;
+			productReference = BBF02A16252FFCD300A181C9 /* ARButt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB452D8725296D9700E851F2 /* Project object */ = {
+		BBF02A0E252FFCD300A181C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					BB452D8E25296D9700E851F2 = {
+					BBF02A15252FFCD300A181C9 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = BB452D8A25296D9700E851F2 /* Build configuration list for PBXProject "ARKitz1" */;
+			buildConfigurationList = BBF02A11252FFCD300A181C9 /* Build configuration list for PBXProject "ARButt" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BB452D8625296D9700E851F2;
-			productRefGroup = BB452D9025296D9700E851F2 /* Products */;
+			mainGroup = BBF02A0D252FFCD300A181C9;
+			productRefGroup = BBF02A17252FFCD300A181C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB452D8E25296D9700E851F2 /* ARKitz1 */,
+				BBF02A15252FFCD300A181C9 /* ARButt */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BB452D8D25296D9700E851F2 /* Resources */ = {
+		BBF02A14252FFCD300A181C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB452D9525296D9700E851F2 /* art.scnassets in Resources */,
-				BB452D9F25296D9800E851F2 /* LaunchScreen.storyboard in Resources */,
-				BB452D9C25296D9800E851F2 /* Assets.xcassets in Resources */,
-				BB452D9A25296D9700E851F2 /* Main.storyboard in Resources */,
+				BBF02A1C252FFCD300A181C9 /* art.scnassets in Resources */,
+				BBF02A26252FFCD400A181C9 /* LaunchScreen.storyboard in Resources */,
+				BBF02A23252FFCD400A181C9 /* Assets.xcassets in Resources */,
+				BBF02A21252FFCD300A181C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB452D8B25296D9700E851F2 /* Sources */ = {
+		BBF02A12252FFCD300A181C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5E5FA62530A09F00FD8D4A /* YesViewController.swift in Sources */,
-				BB452D9725296D9700E851F2 /* ViewController.swift in Sources */,
-				BB452D9325296D9700E851F2 /* AppDelegate.swift in Sources */,
+				BBF02A1E252FFCD300A181C9 /* ViewController.swift in Sources */,
+				BBF02A1A252FFCD300A181C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB452D9825296D9700E851F2 /* Main.storyboard */ = {
+		BBF02A1F252FFCD300A181C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB452D9925296D9700E851F2 /* Base */,
+				BBF02A20252FFCD300A181C9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BB452D9D25296D9800E851F2 /* LaunchScreen.storyboard */ = {
+		BBF02A24252FFCD400A181C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB452D9E25296D9800E851F2 /* Base */,
+				BBF02A25252FFCD400A181C9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BB452DA125296D9800E851F2 /* Debug */ = {
+		BBF02A28252FFCD400A181C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		BB452DA225296D9800E851F2 /* Release */ = {
+		BBF02A29252FFCD400A181C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,40 +281,38 @@
 			};
 			name = Release;
 		};
-		BB452DA425296D9800E851F2 /* Debug */ = {
+		BBF02A2B252FFCD400A181C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLCFP6QUVG;
-				INFOPLIST_FILE = ARKitz1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = ARButt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeverka.ARKitz1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeverka.ARButt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BB452DA525296D9800E851F2 /* Release */ = {
+		BBF02A2C252FFCD400A181C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLCFP6QUVG;
-				INFOPLIST_FILE = ARKitz1/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = ARButt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeverka.ARKitz1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeverka.ARButt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB452D8A25296D9700E851F2 /* Build configuration list for PBXProject "ARKitz1" */ = {
+		BBF02A11252FFCD300A181C9 /* Build configuration list for PBXProject "ARButt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB452DA125296D9800E851F2 /* Debug */,
-				BB452DA225296D9800E851F2 /* Release */,
+				BBF02A28252FFCD400A181C9 /* Debug */,
+				BBF02A29252FFCD400A181C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB452DA325296D9800E851F2 /* Build configuration list for PBXNativeTarget "ARKitz1" */ = {
+		BBF02A2A252FFCD400A181C9 /* Build configuration list for PBXNativeTarget "ARButt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB452DA425296D9800E851F2 /* Debug */,
-				BB452DA525296D9800E851F2 /* Release */,
+				BBF02A2B252FFCD400A181C9 /* Debug */,
+				BBF02A2C252FFCD400A181C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB452D8725296D9700E851F2 /* Project object */;
+	rootObject = BBF02A0E252FFCD300A181C9 /* Project object */;
 }
