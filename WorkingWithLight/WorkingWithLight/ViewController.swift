@@ -12,8 +12,18 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     let configuration = ARWorldTrackingConfiguration()
-
+    let showLight = SCNNode()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,21 +33,16 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
-        showShape()
-
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Create a session configuration
-
         // Run the view's session
         sceneView.session.run(configuration)
-        sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin, ARSCNDebugOptions.showFeaturePoints]
-        
-        
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+        lightOn()
+        showShape()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -47,49 +52,79 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
+    @IBAction func intensityChanged(_ sender: UISlider) {
+        showLight.light?.intensity = CGFloat(sender.value)
+    }
+    
+    @IBAction func temperatureChange(_ sender: UISlider) {
+        showLight.light?.intensity = CGFloat(sender.value)
+    }
+    
+    
+    @IBAction func colorButton(_ sender: UIButton) {
+        showLight.light?.color = sender.backgroundColor!
+    }
+    
+    func lightOn() {
+        showLight.light = SCNLight()
+        showLight.light?.type = .omni
+        showLight.light?.color = UIColor(white: 0.6, alpha: 1.0)
+        showLight.position = SCNVector3(0,0,0)
+        sceneView.scene.rootNode.addChildNode(showLight)
+    }
+
     func showShape() {
         
-        // SNOWMAN! (ADDING NODES TO EACHOTHER)
-        let sphere = SCNSphere(radius: 0.04)
-        sphere.firstMaterial?.diffuse.contents = UIColor.red
+        let sphere = SCNSphere(radius: 0.03)
+        sphere.firstMaterial?.diffuse.contents = UIColor.white
+        
         let node = SCNNode()
         node.geometry = sphere
-        node.position = SCNVector3(0.05, 0.05, -1)
+        node.position = SCNVector3(0, 0, 5.0)
         sceneView.scene.rootNode.addChildNode(node)
         
-        let middleSphere = SCNSphere(radius: 0.03)
-        middleSphere.firstMaterial?.diffuse.contents = UIColor.blue
-        let middleNode = SCNNode()
-        middleNode.geometry = middleSphere
-        middleNode.position = SCNVector3(0, 0.06, 0)
-        node.addChildNode(middleNode)
-        
-        let topSphere = SCNSphere(radius: 0.02)
-        topSphere.firstMaterial?.diffuse.contents = UIColor.white
-        let topNode = SCNNode()
-        topNode.geometry = topSphere
-        topNode.position = SCNVector3(0, 0.04, 0)
-        middleNode.addChildNode(topNode)
-        
-        let hatRim = SCNCylinder(radius: 0.03, height: 0.002)
-        hatRim.firstMaterial?.diffuse.contents = UIColor.black
-        let rimNode = SCNNode()
-        rimNode.geometry = hatRim
-        rimNode.position = SCNVector3(0, 0.016, 0)
-        topNode.addChildNode(rimNode)
-        
-        let hatTop = SCNCylinder(radius: 0.015, height: 0.025)
-        hatTop.firstMaterial?.diffuse.contents = UIColor.black
-        let hatNode = SCNNode()
-        hatNode.geometry = hatTop
-        hatNode.position = SCNVector3(0, 0.01, 0)
-        rimNode.addChildNode(hatNode)
-
-
         
         
         
-
+        
+        
+        
+//
+//        // SNOWMAN! (ADDING NODES TO EACHOTHER)
+//        let sphere = SCNSphere(radius: 0.04)
+//        sphere.firstMaterial?.diffuse.contents = UIColor.red
+//        let node = SCNNode()
+//        node.geometry = sphere
+//        node.position = SCNVector3(0.05, 0.05, -1)
+//        sceneView.scene.rootNode.addChildNode(node)
+//
+//        let middleSphere = SCNSphere(radius: 0.03)
+//        middleSphere.firstMaterial?.diffuse.contents = UIColor.blue
+//        let middleNode = SCNNode()
+//        middleNode.geometry = middleSphere
+//        middleNode.position = SCNVector3(0, 0.06, 0)
+//        node.addChildNode(middleNode)
+//
+//        let topSphere = SCNSphere(radius: 0.02)
+//        topSphere.firstMaterial?.diffuse.contents = UIColor.white
+//        let topNode = SCNNode()
+//        topNode.geometry = topSphere
+//        topNode.position = SCNVector3(0, 0.04, 0)
+//        middleNode.addChildNode(topNode)
+//
+//        let hatRim = SCNCylinder(radius: 0.03, height: 0.002)
+//        hatRim.firstMaterial?.diffuse.contents = UIColor.black
+//        let rimNode = SCNNode()
+//        rimNode.geometry = hatRim
+//        rimNode.position = SCNVector3(0, 0.016, 0)
+//        topNode.addChildNode(rimNode)
+//
+//        let hatTop = SCNCylinder(radius: 0.015, height: 0.025)
+//        hatTop.firstMaterial?.diffuse.contents = UIColor.black
+//        let hatNode = SCNNode()
+//        hatNode.geometry = hatTop
+//        hatNode.position = SCNVector3(0, 0.01, 0)
+//        rimNode.addChildNode(hatNode)
     }
 
     // MARK: - ARSCNViewDelegate
